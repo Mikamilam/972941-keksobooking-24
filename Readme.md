@@ -1,9 +1,7 @@
 # Личный проект «Кексобукинг»
 
 * Студент: [Малика Ким](https://up.htmlacademy.ru/javascript/24/user/972941).
-* Наставник: `Неизвестно`.
-
----
+* Наставник: [Александр Григорьев](https://htmlacademy.ru/profile/fuckhtml).
 
 _Не удаляйте и не изменяйте самовольно файлы и папки:_
 _`.editorconfig`, `.eslintrc`, `.gitattributes`, `.gitignore`, `package-lock.json`, `package.json`., `.github`_
