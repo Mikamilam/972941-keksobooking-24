@@ -1,18 +1,20 @@
 
 const getRndInteger = (min, max) => {
-  if (min >= 0 && max >= 0 && max >= min) {
-    return Math.round((Math.random() *(max-min + 1)) + min);
+  if (min < 0 || max < 0 || min >= max) {
+    return false;
   }
-  return 'Введите корректные значения';
+  const randomNumber = (Math.random() *(max-min + 1)) + min;
+  return Math.round(randomNumber);
 };
 
 getRndInteger(2, 6);
 
 const getRndDecimal = (min, max, decimal) => {
-  if (min >= 0 && max >= 0 && max >= min && decimal >= 0) {
-    return (Math.random() *(max-min + 1) + min).toFixed(decimal);
+  if (min < 0 || max < 0 || min >= max) {
+    return false;
   }
-  return 'Введите корректные значения';
+  const randomNumber = (Math.random() *(max-min + 1)) + min;
+  return randomNumber.toFixed(decimal);
 };
 
 getRndDecimal(2.5, 5.7, 3);
